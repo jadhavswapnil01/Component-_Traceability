@@ -1,0 +1,26 @@
+part_id,name,category,subcategory,spec_weight_g,spec_tolerance_pct,is_critical,complexity_level,unit_cost_base,primary_material,manufacturing_process,lifecycle_months,replacement_interval_km,regulatory_compliance,environmental_rating
+PART-001,Engine Block,Engine,Core,85000.0,0.5,True,5,1385.44,Aluminum,Investment Casting,118,0,ECE|FMVSS,B
+PART-002,Cylinder Head,Engine,Core,25000.0,0.8,True,5,3503.83,Cast Iron,Investment Casting,80,0,DOT|FMVSS,B
+PART-003,Piston Assembly,Engine,Internal,420.0,2.0,True,4,2812.62,Aluminum,Die Casting,89,0,ECE|FMVSS,A
+PART-004,Crankshaft,Engine,Internal,22000.0,0.3,True,5,1984.75,Titanium,Precision Machining,95,0,FMVSS|ECE,B
+PART-005,Timing Chain,Engine,Timing,1200.0,1.5,True,3,2763.86,Titanium,Standard Assembly,65,0,DOT|SAE,A
+PART-006,Oil Pump,Engine,Lubrication,2800.0,2.0,True,3,1915.08,Cast Iron,Stamping,74,0,SAE|FMVSS,C
+PART-007,Transmission Case,Transmission,Housing,35000.0,0.8,True,4,702.99,Aluminum,Die Casting,63,0,SAE|ECE,A
+PART-008,Gear Set,Transmission,Internal,8500.0,0.5,True,5,463.83,Aluminum,Investment Casting,97,0,DOT|SAE,C
+PART-009,Torque Converter,Transmission,Coupling,12000.0,1.0,True,4,1080.54,Carbon Steel,CNC Machining,65,0,DOT|FMVSS,A
+PART-010,Brake Caliper,Brake,Hydraulic,3200.0,1.5,True,3,2821.67,Cast Iron,Stamping,79,0,ECE|SAE,A
+PART-011,Brake Disc,Brake,Friction,8500.0,2.0,True,2,301.27,Steel,Molding,114,0,SAE|FMVSS,C
+PART-012,Brake Pad Set,Brake,Friction,850.0,3.0,True,2,1997.55,Carbon Composite,Molding,112,0,ECE|FMVSS,A
+PART-013,ABS Module,Brake,Electronic,2100.0,1.0,True,5,1445.39,Cast Iron,Investment Casting,119,0,DOT|ECE,C
+PART-014,MacPherson Strut,Suspension,Damping,4200.0,2.5,True,3,2146.04,Aluminum,Standard Assembly,80,0,ECE|DOT,B
+PART-015,Control Arm,Suspension,Linkage,2800.0,1.8,True,2,1266.8,Steel,Stamping,101,0,SAE|DOT,B
+PART-016,Wheel Hub Assembly,Suspension,Bearing,3100.0,1.0,True,3,2042.44,Composite,Machining,97,0,ECE|SAE,B
+PART-017,Engine Control Unit,Electrical,Control,950.0,0.5,True,5,899.59,Copper,Multi-stage Assembly,114,0,DOT|FMVSS,C
+PART-018,Wiring Harness,Electrical,Distribution,4500.0,5.0,True,3,1789.79,Silicon,Stamping,65,0,ECE|FMVSS,B
+PART-019,Battery,Electrical,Power,18000.0,2.0,True,2,354.91,Silicon,Basic Assembly,88,0,DOT|SAE,B
+PART-020,Alternator,Electrical,Charging,5200.0,1.5,True,4,3292.46,Copper,CNC Machining,96,0,ECE|FMVSS,A
+PART-021,Door Panel,Body,Closure,12000.0,5.0,False,2,918.71,Aluminum,Stamping,118,96197,SAE|DOT,B
+PART-022,Hood Assembly,Body,Closure,15000.0,3.0,False,2,739.89,Glass,Basic Assembly,88,70103,ECE|DOT,B
+PART-023,Windshield,Body,Glass,22000.0,1.0,True,3,2206.37,Plastic,Standard Assembly,110,0,SAE|FMVSS,B
+PART-024,Side Mirror,Body,Vision,850.0,8.0,False,2,1325.65,Aluminum,Molding,99,126325,SAE|FMVSS,A
+PART-025,Headlight Assembly,Body,Lighting,1200.0,2.5,False,3,1175.72,Aluminum,Machining,99,175885,SAE|DOT,A

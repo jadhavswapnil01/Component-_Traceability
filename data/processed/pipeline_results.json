@@ -1,0 +1,340 @@
+{
+  "success": true,
+  "start_time": "2025-09-14T13:30:24.392992",
+  "stages": {
+    "data_generation": {
+      "success": true,
+      "duration_seconds": 377.32022738456726,
+      "datasets_created": 12,
+      "total_records": 463655,
+      "enhanced_features": [
+        "Multi-tier supplier network",
+        "Complex part hierarchies",
+        "Advanced anomaly patterns",
+        "Comprehensive cost analysis",
+        "Regulatory compliance tracking"
+      ]
+    },
+    "data_loading": {
+      "success": true,
+      "duration_seconds": 4.921036720275879,
+      "data_summary": {
+        "datasets": {
+          "suppliers": {
+            "rows": 45,
+            "columns": 16,
+            "memory_mb": 0.02147197723388672
+          },
+          "parts": {
+            "rows": 25,
+            "columns": 15,
+            "memory_mb": 0.012189865112304688
+          },
+          "stations": {
+            "rows": 12,
+            "columns": 10,
+            "memory_mb": 0.004605293273925781
+          },
+          "batches": {
+            "rows": 9435,
+            "columns": 23,
+            "memory_mb": 5.8490800857543945
+          },
+          "vehicles": {
+            "rows": 15000,
+            "columns": 18,
+            "memory_mb": 8.75331974029541
+          },
+          "assembly_events": {
+            "rows": 375000,
+            "columns": 13,
+            "memory_mb": 207.4212770462036
+          },
+          "qc_inspections": {
+            "rows": 59966,
+            "columns": 13,
+            "memory_mb": 27.25538158416748
+          },
+          "failures": {
+            "rows": 2506,
+            "columns": 14,
+            "memory_mb": 1.0864181518554688
+          }
+        },
+        "relationships": {
+          "suppliers_per_part": 14.36,
+          "batches_per_supplier": 209.66666666666666,
+          "parts_per_vehicle": 25.0
+        },
+        "date_ranges": {
+          "batches": {
+            "start": "2022-07-09T00:00:00",
+            "end": "2024-12-27T00:00:00",
+            "span_days": 902
+          },
+          "vehicles": {
+            "start": "2024-01-01T00:00:00",
+            "end": "2024-12-30T00:00:00",
+            "span_days": 364
+          }
+        }
+      },
+      "quality_score": 95.0,
+      "datasets_processed": [
+        "suppliers",
+        "parts",
+        "stations",
+        "batches",
+        "vehicles",
+        "assembly_events",
+        "qc_inspections",
+        "failures"
+      ]
+    },
+    "graph_loading": {
+      "success": true,
+      "duration_seconds": 639.5856504440308,
+      "database_stats": {
+        "node_counts": {
+          "AssemblyEvent": 375000,
+          "QCInspection": 59966,
+          "Vehicle": 15000,
+          "Batch": 9435,
+          "Failure": 2506,
+          "Supplier": 45,
+          "Part": 25,
+          "Station": 12
+        },
+        "relationship_counts": {
+          "ASSEMBLED_WITH": 375000,
+          "USES_BATCH": 375000,
+          "INSTALLS_PART": 375000,
+          "AT_STATION": 375000,
+          "INSPECTED": 59966,
+          "PERFORMED_AT": 59966,
+          "AFFECTS_COMPONENT": 10885,
+          "SUPPLIES": 9435,
+          "CONTAINS": 9435,
+          "EXPERIENCED_FAILURE": 2506,
+          "HAS_PERFORMANCE": 45,
+          "HAS_RELIABILITY": 25
+        },
+        "total_nodes": 461989,
+        "total_relationships": 1652263,
+        "data_quality": {
+          "total_batches": 9435,
+          "anomaly_rate": 0.06868044515103339,
+          "avg_quality": 0.8723659671436139,
+          "data_span": {
+            "earliest_batch": "2022-07-09T00:00:00.000000000",
+            "latest_batch": "2024-12-27T00:00:00.000000000"
+          }
+        },
+        "database_health": {
+          "connectivity_score": 89.4,
+          "data_completeness": 100.0
+        }
+      },
+      "enhanced_features": [
+        "Advanced relationship modeling",
+        "Comprehensive indexing",
+        "Multi-dimensional traceability",
+        "Performance optimization"
+      ]
+    },
+    "anomaly_detection": {
+      "success": true,
+      "duration_seconds": 2.182891845703125,
+      "training_metrics": {
+        "accuracy": 0.9865394806571277,
+        "precision": 0.8450331125827815,
+        "recall": 0.9845679012345679,
+        "auc_roc": 0.997939576844019,
+        "confusion_matrix": [
+          [
+            8670,
+            117
+          ],
+          [
+            10,
+            638
+          ]
+        ]
+      },
+      "anomaly_summary": {
+        "total_anomalies": 755,
+        "anomaly_rate": 0.0800211976682565,
+        "avg_confidence": 0.7011175498565658,
+        "top_issues": [
+          {
+            "issue": "qc_shortfall_MEDIUM",
+            "count": 472
+          },
+          {
+            "issue": "supplier_quality_interaction_MEDIUM",
+            "count": 377
+          },
+          {
+            "issue": "complexity_x_deviation_MEDIUM",
+            "count": 340
+          },
+          {
+            "issue": "weight_deviation_pct_MEDIUM",
+            "count": 190
+          },
+          {
+            "issue": "supplier_quality_interaction_HIGH",
+            "count": 95
+          }
+        ],
+        "by_supplier": {
+          "SUPP-039": 76,
+          "SUPP-032": 44,
+          "SUPP-043": 38,
+          "SUPP-034": 33,
+          "SUPP-035": 28
+        },
+        "by_category": {
+          "Body": 262,
+          "Engine": 169,
+          "Electrical": 166,
+          "Brake": 61,
+          "Transmission": 54,
+          "Suspension": 43
+        },
+        "high_confidence_anomalies": 213
+      },
+      "model_path": "models/saved\\anomaly_detector.pkl",
+      "features_analyzed": 36,
+      "advanced_features": [
+        "Statistical anomaly detection",
+        "Machine learning classification",
+        "Feature importance analysis",
+        "Confidence scoring"
+      ]
+    },
+    "enhanced_analytics": {
+      "success": true,
+      "duration_seconds": 12.281792163848877,
+      "traceability_samples": [
+        {
+          "vin": "VIN114875",
+          "component_count": 25,
+          "anomalous_components": 4,
+          "suppliers_involved": 15,
+          "has_failures": false
+        },
+        {
+          "vin": "VIN106491",
+          "component_count": 25,
+          "anomalous_components": 2,
+          "suppliers_involved": 18,
+          "has_failures": false
+        },
+        {
+          "vin": "VIN105552",
+          "component_count": 25,
+          "anomalous_components": 1,
+          "suppliers_involved": 20,
+          "has_failures": false
+        },
+        {
+          "vin": "VIN110869",
+          "component_count": 25,
+          "anomalous_components": 2,
+          "suppliers_involved": 21,
+          "has_failures": true
+        },
+        {
+          "vin": "VIN113519",
+          "component_count": 25,
+          "anomalous_components": 2,
+          "suppliers_involved": 18,
+          "has_failures": false
+        }
+      ],
+      "recall_samples": [
+        {
+          "batch_id": "BATCH-008354",
+          "affected_vehicles": 15,
+          "priority": "MEDIUM",
+          "estimated_cost": 53375,
+          "safety_critical": false
+        },
+        {
+          "batch_id": "BATCH-008975",
+          "affected_vehicles": 72,
+          "priority": "CRITICAL",
+          "estimated_cost": 70928.95,
+          "safety_critical": false
+        },
+        {
+          "batch_id": "BATCH-003376",
+          "affected_vehicles": 10,
+          "priority": "CRITICAL",
+          "estimated_cost": 56985.18,
+          "safety_critical": true
+        }
+      ],
+      "supply_chain_health": {
+        "total_suppliers": 45,
+        "total_batches": 9435,
+        "overall_anomaly_rate": 0.06868044515103339,
+        "overall_failure_rate": 0.16706666666666667,
+        "avg_supplier_quality": 0.9029687041532055,
+        "avg_supplier_risk": 8.877189121207286,
+        "supply_chain_health_score": 89.04633481159722
+      },
+      "high_risk_suppliers": 0,
+      "analytics_features": [
+        "End-to-end component traceability",
+        "Comprehensive recall simulation",
+        "Supply chain risk assessment",
+        "Supplier performance analytics",
+        "Cost impact analysis"
+      ]
+    },
+    "system_validation": {
+      "success": true,
+      "duration_seconds": 4.649162292480469e-05,
+      "validation_results": {
+        "data_integrity": true,
+        "database_health": true,
+        "traceability_completeness": true,
+        "performance_metrics": {
+          "data_loading_efficiency": "Good",
+          "graph_query_performance": "Optimal",
+          "anomaly_detection_accuracy": "High",
+          "traceability_response_time": "Fast"
+        },
+        "validation_checks": [
+          {
+            "check": "Assembly Events Coverage",
+            "status": "PASS",
+            "message": "Adequate assembly events: 375000"
+          },
+          {
+            "check": "Database Connectivity",
+            "status": "PASS",
+            "message": "Good connectivity score: 89.4/100"
+          }
+        ],
+        "overall_health_score": 100.0
+      },
+      "system_health_score": 100.0
+    }
+  },
+  "errors": [],
+  "version": "2.0-Enhanced",
+  "end_time": "2025-09-14T13:47:40.982658",
+  "total_duration_seconds": 1036.589658498764,
+  "summary": {
+    "total_datasets": 8,
+    "total_records_processed": 461989,
+    "graph_nodes": 461989,
+    "graph_relationships": 1652263,
+    "anomalies_detected": 755,
+    "system_health_score": 100.0,
+    "high_risk_suppliers": 0
+  }
+}

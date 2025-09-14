@@ -1,0 +1,33 @@
+=== ENHANCED ANOMALY INJECTION REPORT ===
+
+Total Batches: 9,435
+Anomalous Batches: 648
+Anomaly Rate: 6.87%
+
+Anomaly Type Distribution:
+  quality_degradation: 243 batches (37.5%)
+  process_deviation: 204 batches (31.5%)
+  material_defect: 123 batches (19.0%)
+  quantity_variance: 30 batches (4.6%)
+  timing_issue: 30 batches (4.6%)
+  environmental_factor: 18 batches (2.8%)
+
+Supplier Impact:
+  SUPP-032: 44 anomalous batches
+  SUPP-034: 32 anomalous batches
+  SUPP-035: 29 anomalous batches
+  SUPP-033: 24 anomalous batches
+  SUPP-031: 23 anomalous batches
+  SUPP-043: 23 anomalous batches
+  SUPP-037: 23 anomalous batches
+  SUPP-026: 21 anomalous batches
+  SUPP-005: 21 anomalous batches
+  SUPP-025: 21 anomalous batches
+
+Part Category Impact:
+  (Part category analysis would be generated with full dataset)
+
+Quality Impact:
+  Average QC Rate (Normal): 88.7%
+  Average QC Rate (Anomalous): 67.6%
+  Quality Impact: 21.1% reduction

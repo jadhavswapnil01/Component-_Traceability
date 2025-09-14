@@ -1,0 +1,66 @@
+audit_id,supplier_id,audit_date,audit_type,auditor_name,audit_score,findings,corrective_actions_required,follow_up_date,certification_status
+3d1d6edb-6c44-45b3-b0ae-0914c40a29e9,SUPP-001,2025-05-18,TS16949,Julia Hatfield,92.9,No major issues identified,Maintain current standards,2025-06-17,Valid
+43ad5439-f13e-4cd7-bd13-1284a0bb75b4,SUPP-001,2025-04-02,Process,Lauren Skinner,100.0,No major issues identified,Maintain current standards,2025-05-02,Valid
+8cddbfd1-a974-4c73-9c6f-e3e8e7108298,SUPP-002,2025-01-06,Process,Jason Tate,89.8,No major issues identified,Maintain current standards,2025-02-05,Valid
+a158839f-a988-47a7-be1c-6d9784ed3a89,SUPP-002,2025-04-02,ISO9001,Jordan Carson,100.0,No major issues identified,Maintain current standards,2025-05-02,Valid
+70a3e21f-3ae7-463e-a47c-5d7d315a3b42,SUPP-003,2024-10-15,TS16949,Nicole Maldonado,87.8,No major issues identified,Maintain current standards,2024-11-14,Valid
+b969b217-212d-4c39-8ef8-00e42306f9d9,SUPP-003,2025-05-04,Process,Mark Mcgee,95.7,No major issues identified,Maintain current standards,2025-06-03,Valid
+0ba359e5-33c0-45cd-b27e-84f55f3367af,SUPP-004,2025-07-27,ISO9001,Maria Brown,100.0,No major issues identified,Maintain current standards,2025-08-26,Valid
+a63c4b93-837b-458c-918c-8a64299f7147,SUPP-004,2025-08-01,System,Gregory Potter,87.8,No major issues identified,Maintain current standards,2025-08-31,Valid
+6d33f830-23ec-46b0-ad40-439ef1d3e2d3,SUPP-005,2025-01-30,TS16949,Michael Hines,96.6,No major issues identified,Maintain current standards,2025-03-01,Valid
+1b9ab5c7-5ae8-4143-bcd8-05072d8c7702,SUPP-005,2025-08-14,System,Randy Mack,100.0,No major issues identified,Maintain current standards,2025-09-13,Valid
+06439022-f755-4fe7-8a61-031844216f65,SUPP-006,2025-06-18,TS16949,Alyssa Arnold,86.2,No major issues identified,Maintain current standards,2025-07-18,Valid
+4def6636-944f-4d97-8f88-0a616af3326b,SUPP-006,2025-05-05,ISO9001,Phillip Chapman,83.1,Minor non-conformances noted,Continuous improvement recommended,2025-06-04,Valid
+3acda4a1-20b2-43b6-add0-b8ecef0db269,SUPP-007,2025-06-21,System,Monica Chambers,82.9,Minor non-conformances noted,Continuous improvement recommended,2025-07-21,Valid
+7807ffaa-ecd3-482f-bf58-15329dbe1614,SUPP-007,2025-06-01,ISO9001,Bryan Wallace,89.7,No major issues identified,Maintain current standards,2025-07-01,Valid
+8522f6de-f6fb-4384-ba9f-8cb5c188b014,SUPP-008,2025-01-16,ISO9001,Danielle Martinez,84.8,Minor non-conformances noted,Continuous improvement recommended,2025-02-15,Valid
+be9357f1-b36d-48e5-b5b4-ce8b2178b189,SUPP-008,2024-10-19,System,Elijah Osborn,90.4,No major issues identified,Maintain current standards,2024-11-18,Valid
+c5c1a818-9e54-4de8-bf34-4f087a089351,SUPP-009,2025-08-10,Process,Edwin Perkins,90.7,No major issues identified,Maintain current standards,2025-09-09,Valid
+d1b4d09b-2743-4582-a87c-d7475bec098b,SUPP-009,2024-11-28,System,Sylvia Mccoy,97.9,No major issues identified,Maintain current standards,2024-12-28,Valid
+f89a591c-5c84-4d1a-bf41-b34e0d79f300,SUPP-010,2025-02-11,Process,Hannah Andrews,89.1,No major issues identified,Maintain current standards,2025-03-13,Valid
+7e6361a6-7fb3-4411-b0f4-a27995ec48cd,SUPP-010,2024-10-27,TS16949,Joshua Baker,95.6,No major issues identified,Maintain current standards,2024-11-26,Valid
+5e59f695-0b15-4e8b-98ed-19decda2077f,SUPP-011,2025-04-05,TS16949,Sandra Price,100.0,No major issues identified,Maintain current standards,2025-05-05,Valid
+cf26caf6-4404-4437-8b57-2e5abd35b3be,SUPP-011,2025-02-28,TS16949,Benjamin Williams,91.4,No major issues identified,Maintain current standards,2025-03-30,Valid
+b0b4186f-067d-43d2-a35e-597ed3841b12,SUPP-012,2024-12-08,ISO9001,Amanda Decker,100.0,No major issues identified,Maintain current standards,2025-01-07,Valid
+678419ee-76b2-43a5-af68-28544b3fd81e,SUPP-012,2025-01-24,TS16949,Donald Levine,91.0,No major issues identified,Maintain current standards,2025-02-23,Valid
+50084052-a9db-4a1c-8aad-4ee36f20be4d,SUPP-013,2025-01-01,System,Tammy Salazar,84.4,Minor non-conformances noted,Continuous improvement recommended,2025-01-31,Valid
+3fe3b3a5-2695-4fa1-a6f3-736f14b20c4c,SUPP-013,2025-06-06,ISO9001,Rebecca Mcdonald,87.8,No major issues identified,Maintain current standards,2025-07-06,Valid
+9e97885f-654e-438b-b33d-947705dbf0ef,SUPP-014,2025-06-21,TS16949,Ronald Hernandez,89.4,No major issues identified,Maintain current standards,2025-07-21,Valid
+2411f21c-608a-4fb0-ab6a-a027be1bbde6,SUPP-014,2025-02-23,ISO9001,Sandra Smith,99.4,No major issues identified,Maintain current standards,2025-03-25,Valid
+50555f6f-b3ed-44e8-a214-4720a60bcd25,SUPP-015,2024-10-16,System,Kevin Marshall,93.3,No major issues identified,Maintain current standards,2024-11-15,Valid
+69019cba-9e71-4af9-8143-3c9f548b2f08,SUPP-015,2025-01-01,Process,Alexandra Wagner,78.5,Minor non-conformances noted,Continuous improvement recommended,2025-01-31,Conditional
+7b44ba3e-53df-48f7-90d8-25ea5b49dcdd,SUPP-016,2024-10-23,System,Arthur Johnson,95.5,No major issues identified,Maintain current standards,2024-11-22,Valid
+9da8fbd5-80a1-4df6-8eb9-124d0aec1536,SUPP-016,2024-11-25,System,Phillip Hogan,78.7,Minor non-conformances noted,Continuous improvement recommended,2024-12-25,Conditional
+fc1e4360-41c0-4c98-8f0d-1e4157e77293,SUPP-017,2025-01-04,TS16949,Mr. Gregory Brooks,83.4,Minor non-conformances noted,Continuous improvement recommended,2025-02-03,Valid
+cc9eab67-ce36-4b4b-a40d-2d1fd2a387bf,SUPP-017,2024-11-18,Process,Troy Williams,89.9,No major issues identified,Maintain current standards,2024-12-18,Valid
+04cfcce5-9804-45b1-921a-a123fb02b55a,SUPP-018,2025-01-04,ISO9001,Paula Perez,98.2,No major issues identified,Maintain current standards,2025-02-03,Valid
+93bc3b1f-ae24-4681-b5d3-fd80a7fc0e59,SUPP-018,2025-01-22,Process,Sandra Johnson,94.3,No major issues identified,Maintain current standards,2025-02-21,Valid
+1d12153f-c114-46dc-b129-05b881433886,SUPP-019,2025-04-22,ISO9001,Paul Palmer,81.9,Minor non-conformances noted,Continuous improvement recommended,2025-05-22,Valid
+0e684324-e279-4dba-9d9c-60ac185022b9,SUPP-019,2024-12-25,TS16949,Michele Lewis,84.8,Minor non-conformances noted,Continuous improvement recommended,2025-01-24,Valid
+b5e88d96-8030-424b-9753-2f6e6d6da880,SUPP-020,2024-10-13,Process,Brooke Conley,90.0,No major issues identified,Maintain current standards,2024-11-12,Valid
+7a199e7b-90db-4ae5-b84b-0ce9897ee499,SUPP-020,2024-10-25,TS16949,Jennifer Jones,94.2,No major issues identified,Maintain current standards,2024-11-24,Valid
+a5da7f91-6ba1-43a9-b935-43bb166ae939,SUPP-021,2024-12-20,TS16949,Matthew Curtis,77.9,Minor non-conformances noted,Continuous improvement recommended,2025-01-19,Conditional
+4cf50af8-e7b3-48b0-ab6d-083d4a637c2d,SUPP-022,2025-03-26,System,Brianna Christian,76.9,Minor non-conformances noted,Continuous improvement recommended,2025-04-25,Conditional
+6a36d5cc-b8c4-42a6-b927-9a3a0a153fc1,SUPP-023,2025-03-09,TS16949,Candice Smith,95.6,No major issues identified,Maintain current standards,2025-04-08,Valid
+0c249cfc-586c-4178-b156-72f921003527,SUPP-024,2025-04-16,ISO9001,Yolanda Horton,79.8,Minor non-conformances noted,Continuous improvement recommended,2025-05-16,Conditional
+fb83b93b-9310-40ad-9513-8bbfdd4bb562,SUPP-025,2025-02-02,System,Melissa Sanchez,93.2,No major issues identified,Maintain current standards,2025-03-04,Valid
+67302d64-8c5c-4165-8dfc-96e4eb4e8ac9,SUPP-026,2025-02-04,ISO9001,Tanner Gilbert,77.9,Minor non-conformances noted,Continuous improvement recommended,2025-03-06,Conditional
+2766820d-cb02-4e53-a242-cfb57904dac7,SUPP-027,2024-12-31,ISO9001,Chelsea Ross,81.1,Minor non-conformances noted,Continuous improvement recommended,2025-01-30,Valid
+0b2eabd8-b449-426e-b64a-8d97236e4fde,SUPP-028,2025-06-20,Process,Sarah Cabrera,85.3,No major issues identified,Maintain current standards,2025-07-20,Valid
+035052a2-094a-4582-8378-d6a00d217e5c,SUPP-029,2025-02-18,ISO9001,Virginia Davis,81.8,Minor non-conformances noted,Continuous improvement recommended,2025-03-20,Valid
+5e117ec3-708a-41ea-8c4d-21a4a8ae255f,SUPP-030,2025-02-02,ISO9001,Charles Lutz,89.9,No major issues identified,Maintain current standards,2025-03-04,Valid
+2d780e32-e8bc-4acd-bec4-623d41678d42,SUPP-031,2025-06-18,System,Pamela Mason,81.3,Minor non-conformances noted,Continuous improvement recommended,2025-07-18,Valid
+af69d138-f136-4bd9-aaea-bdd6487a3192,SUPP-032,2025-08-08,System,Diana Olson,83.8,Minor non-conformances noted,Continuous improvement recommended,2025-09-07,Valid
+3818260f-534d-4fb8-850f-1a67e81dcb3a,SUPP-033,2024-11-24,ISO9001,Kevin Suarez,76.8,Minor non-conformances noted,Continuous improvement recommended,2024-12-24,Conditional
+156387a7-5a1d-4c0b-af28-9946c7550618,SUPP-034,2025-02-04,Process,Patrick Morgan,72.0,Multiple non-conformances identified,Immediate corrective action plan required,2025-03-06,Conditional
+4e28d53c-432d-41fe-bf0b-956470938b73,SUPP-035,2024-10-08,TS16949,Lori Osborne,88.3,No major issues identified,Maintain current standards,2024-11-07,Valid
+8aec43a5-585a-4c94-bce5-c3a10c90aa93,SUPP-036,2025-05-08,ISO9001,Mary Jacobs,69.8,Multiple non-conformances identified,Immediate corrective action plan required,2025-06-07,Conditional
+3d8c8048-1534-44c3-909d-e311fc17f7fe,SUPP-037,2025-04-24,Process,Gabrielle Bowers,73.4,Multiple non-conformances identified,Immediate corrective action plan required,2025-05-24,Conditional
+4445e9f8-1fa5-4860-a40c-bb88ff652299,SUPP-038,2025-05-02,System,Brian Rodriguez,79.2,Minor non-conformances noted,Continuous improvement recommended,2025-06-01,Conditional
+15de12c0-b364-4734-834e-1273508144de,SUPP-039,2025-02-13,TS16949,Mr. Brad Benitez,78.6,Minor non-conformances noted,Continuous improvement recommended,2025-03-15,Conditional
+edce15bd-9833-4606-b524-8e86456b4aa9,SUPP-040,2025-05-25,Process,Hannah Holland,72.0,Multiple non-conformances identified,Immediate corrective action plan required,2025-06-24,Conditional
+10cf7c77-1533-408e-a22c-9ca969028aa3,SUPP-041,2025-05-04,Process,Misty Turner,91.4,No major issues identified,Maintain current standards,2025-06-03,Valid
+c0eda339-e6ff-40ea-a1a8-003ae1e60a67,SUPP-042,2024-11-14,ISO9001,Charles Mcdaniel,70.8,Multiple non-conformances identified,Immediate corrective action plan required,2024-12-14,Conditional
+af01d54f-a47a-4251-9d42-7492608ab2d8,SUPP-043,2024-11-17,TS16949,Justin Robinson,86.9,No major issues identified,Maintain current standards,2024-12-17,Valid
+1519c055-77ee-4c47-9175-359fc7997712,SUPP-044,2024-12-19,TS16949,William Miller,81.4,Minor non-conformances noted,Continuous improvement recommended,2025-01-18,Valid
+eca7e04c-a1fb-46b9-8f82-37784856df73,SUPP-045,2024-11-21,TS16949,Michele Miller,71.1,Multiple non-conformances identified,Immediate corrective action plan required,2024-12-21,Conditional

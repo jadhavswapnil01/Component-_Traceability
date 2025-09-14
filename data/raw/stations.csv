@@ -1,0 +1,13 @@
+station_id,name,category,daily_capacity,shift_pattern,efficiency_rating,maintenance_interval_hours,last_maintenance,operator_count_per_shift,automated_level
+STN-ENG-001,Engine Assembly Line 1,Engine,120,day|night,0.9633761081627397,292,2025-08-26,10,Manual
+STN-ENG-002,Engine Assembly Line 2,Engine,110,day|night,0.9346777374284719,251,2025-08-28,11,Semi-Auto
+STN-TRN-001,Transmission Assembly,Transmission,150,day|night,0.9457377506312139,455,2025-08-30,11,Automated
+STN-CHS-001,Chassis Assembly,Chassis,180,day|evening|night,0.9086091182825371,461,2025-08-28,7,Automated
+STN-BDY-001,Body Shop Line 1,Body,200,day|evening|night,0.9590567512379714,341,2025-08-22,9,Automated
+STN-BDY-002,Body Shop Line 2,Body,190,day|evening|night,0.9630865270680766,214,2025-09-08,5,Semi-Auto
+STN-PNT-001,Paint Shop,Finishing,160,day|night,0.9018703515031169,468,2025-09-03,11,Manual
+STN-ASM-001,Final Assembly Line 1,Assembly,220,day|evening|night,0.952412685532884,313,2025-08-29,11,Manual
+STN-ASM-002,Final Assembly Line 2,Assembly,210,day|evening|night,0.9038855959464716,249,2025-08-29,8,Semi-Auto
+STN-QC-001,Quality Control Station 1,QC,100,day|evening,0.8951039162465095,176,2025-09-03,5,Manual
+STN-QC-002,Quality Control Station 2,QC,95,day|evening,0.9250921540319011,339,2025-09-03,8,Manual
+STN-TST-001,Road Test,Testing,50,day,0.8904915122472584,444,2025-08-25,8,Manual

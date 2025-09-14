@@ -1,0 +1,55 @@
+=== ENHANCED MANUFACTURING DATA QUALITY REPORT ===
+
+Generation Date: 2025-09-14T13:36:41.975559
+Total Datasets: 12
+
+Total Records Generated: 463,655
+
+Dataset Summary:
+  suppliers: 45 records, 15 columns
+  parts: 25 records, 15 columns
+  stations: 12 records, 10 columns
+  batches: 9,435 records, 20 columns
+  vehicles: 15,000 records, 14 columns
+  assembly_events: 375,000 records, 13 columns
+  qc_inspections: 59,966 records, 13 columns
+  failures: 2,506 records, 14 columns
+  supplier_audits: 65 records, 10 columns
+  compliance_records: 500 records, 10 columns
+  maintenance_records: 101 records, 9 columns
+  cost_analysis: 1,000 records, 13 columns
+
+Key Metrics:
+  Suppliers: 45 (20 Tier 1)
+  Parts Catalog: 25 parts across 6 categories
+  Manufacturing Batches: 9,435
+  Vehicles Produced: 15,000
+  Assembly Events: 375,000
+  Quality Inspections: 59,966
+  Field Failures: 2,506 (16.7% failure rate)
+
+Anomaly Statistics:
+  Anomalous Batches: 648 (6.9%)
+    quality_degradation: 243 batches
+    process_deviation: 204 batches
+    material_defect: 123 batches
+    quantity_variance: 30 batches
+    timing_issue: 30 batches
+    environmental_factor: 18 batches
+
+Supplier Distribution:
+  Tier 1: 20 suppliers
+  Tier 2: 15 suppliers
+  Tier 3: 10 suppliers
+
+Geographic Distribution:
+  Germany: 12 suppliers
+  China: 10 suppliers
+  Mexico: 4 suppliers
+  Japan: 3 suppliers
+  Italy: 3 suppliers
+  Brazil: 3 suppliers
+  India: 3 suppliers
+  Malaysia: 2 suppliers
+  USA: 1 suppliers
+  South Korea: 1 suppliers

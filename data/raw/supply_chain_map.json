@@ -1,0 +1,587 @@
+{
+  "suppliers": [
+    {
+      "id": "SUPP-001",
+      "name": "Owen, Jacobs and Peterson Inc",
+      "country": "Germany",
+      "tier": 1,
+      "specialization": "Engine",
+      "quality_rating": 0.9758,
+      "risk_score": -3.3
+    },
+    {
+      "id": "SUPP-002",
+      "name": "Jackson-Torres Ltd",
+      "country": "Japan",
+      "tier": 1,
+      "specialization": "Engine",
+      "quality_rating": 0.9895,
+      "risk_score": 4.7
+    },
+    {
+      "id": "SUPP-003",
+      "name": "May PLC Ltd",
+      "country": "Germany",
+      "tier": 1,
+      "specialization": "Engine",
+      "quality_rating": 0.9246,
+      "risk_score": 6.0
+    },
+    {
+      "id": "SUPP-004",
+      "name": "Beck PLC GmbH",
+      "country": "Japan",
+      "tier": 1,
+      "specialization": "Engine",
+      "quality_rating": 0.9583,
+      "risk_score": -0.4
+    },
+    {
+      "id": "SUPP-005",
+      "name": "Lawrence, Lopez and Garrett Corp",
+      "country": "Germany",
+      "tier": 1,
+      "specialization": "Engine",
+      "quality_rating": 0.9611,
+      "risk_score": -4.6
+    },
+    {
+      "id": "SUPP-006",
+      "name": "Turner-Hoover Inc",
+      "country": "Germany",
+      "tier": 1,
+      "specialization": "Transmission",
+      "quality_rating": 0.9521,
+      "risk_score": -4.6
+    },
+    {
+      "id": "SUPP-007",
+      "name": "Donaldson-Murphy Corp",
+      "country": "Germany",
+      "tier": 1,
+      "specialization": "Transmission",
+      "quality_rating": 0.938,
+      "risk_score": 14.3
+    },
+    {
+      "id": "SUPP-008",
+      "name": "Mcconnell-Fritz Corp",
+      "country": "Germany",
+      "tier": 1,
+      "specialization": "Transmission",
+      "quality_rating": 0.9182,
+      "risk_score": 0.6
+    },
+    {
+      "id": "SUPP-009",
+      "name": "Davis-Pruitt Ltd",
+      "country": "USA",
+      "tier": 1,
+      "specialization": "Transmission",
+      "quality_rating": 0.9195,
+      "risk_score": 12.3
+    },
+    {
+      "id": "SUPP-010",
+      "name": "Howard and Sons Ltd",
+      "country": "Germany",
+      "tier": 1,
+      "specialization": "Transmission",
+      "quality_rating": 0.9228,
+      "risk_score": 0.6
+    },
+    {
+      "id": "SUPP-011",
+      "name": "Lopez, Bryan and Santos S.A.",
+      "country": "Italy",
+      "tier": 1,
+      "specialization": "Brake",
+      "quality_rating": 0.9889,
+      "risk_score": 1.8
+    },
+    {
+      "id": "SUPP-012",
+      "name": "Shelton, Spence and Wiggins GmbH",
+      "country": "Germany",
+      "tier": 1,
+      "specialization": "Brake",
+      "quality_rating": 0.9221,
+      "risk_score": 16.5
+    },
+    {
+      "id": "SUPP-013",
+      "name": "Moore-May Inc",
+      "country": "Germany",
+      "tier": 1,
+      "specialization": "Brake",
+      "quality_rating": 0.9641,
+      "risk_score": -1.6
+    },
+    {
+      "id": "SUPP-014",
+      "name": "May, Johnson and Adams GmbH",
+      "country": "Italy",
+      "tier": 1,
+      "specialization": "Brake",
+      "quality_rating": 0.9818,
+      "risk_score": 5.2
+    },
+    {
+      "id": "SUPP-015",
+      "name": "Williams Group GmbH",
+      "country": "Italy",
+      "tier": 1,
+      "specialization": "Brake",
+      "quality_rating": 0.9107,
+      "risk_score": 12.1
+    },
+    {
+      "id": "SUPP-016",
+      "name": "Ballard, Reynolds and Mcgee S.A.",
+      "country": "Germany",
+      "tier": 1,
+      "specialization": "Electrical",
+      "quality_rating": 0.9334,
+      "risk_score": 12.0
+    },
+    {
+      "id": "SUPP-017",
+      "name": "Miller, Thomas and Bradshaw S.A.",
+      "country": "Germany",
+      "tier": 1,
+      "specialization": "Electrical",
+      "quality_rating": 0.9696,
+      "risk_score": -0.6
+    },
+    {
+      "id": "SUPP-018",
+      "name": "Rose-Hamilton Corp",
+      "country": "Japan",
+      "tier": 1,
+      "specialization": "Electrical",
+      "quality_rating": 0.9345,
+      "risk_score": -1.8
+    },
+    {
+      "id": "SUPP-019",
+      "name": "Watson Group Corp",
+      "country": "South Korea",
+      "tier": 1,
+      "specialization": "Electrical",
+      "quality_rating": 0.9301,
+      "risk_score": 14.2
+    },
+    {
+      "id": "SUPP-020",
+      "name": "Guerra-Barajas GmbH",
+      "country": "Germany",
+      "tier": 1,
+      "specialization": "Electrical",
+      "quality_rating": 0.893,
+      "risk_score": 9.8
+    },
+    {
+      "id": "SUPP-021",
+      "name": "Clark-Villegas Inc",
+      "country": "Mexico",
+      "tier": 2,
+      "specialization": "Suspension",
+      "quality_rating": 0.8541,
+      "risk_score": 6.2
+    },
+    {
+      "id": "SUPP-022",
+      "name": "Thompson, Smith and Scott S.A.",
+      "country": "Brazil",
+      "tier": 2,
+      "specialization": "Suspension",
+      "quality_rating": 0.9057,
+      "risk_score": 14.2
+    },
+    {
+      "id": "SUPP-023",
+      "name": "Fuller-Waters Ltd",
+      "country": "Brazil",
+      "tier": 2,
+      "specialization": "Suspension",
+      "quality_rating": 0.8849,
+      "risk_score": 15.6
+    },
+    {
+      "id": "SUPP-024",
+      "name": "Alexander, Graham and Erickson S.A.",
+      "country": "Mexico",
+      "tier": 2,
+      "specialization": "Suspension",
+      "quality_rating": 0.9111,
+      "risk_score": 17.8
+    },
+    {
+      "id": "SUPP-025",
+      "name": "Smith PLC Inc",
+      "country": "Brazil",
+      "tier": 2,
+      "specialization": "Suspension",
+      "quality_rating": 0.9141,
+      "risk_score": 0.0
+    },
+    {
+      "id": "SUPP-026",
+      "name": "Gomez-Maldonado Inc",
+      "country": "China",
+      "tier": 2,
+      "specialization": "Body",
+      "quality_rating": 0.8976,
+      "risk_score": 17.8
+    },
+    {
+      "id": "SUPP-027",
+      "name": "Morales-Frazier Corp",
+      "country": "China",
+      "tier": 2,
+      "specialization": "Body",
+      "quality_rating": 0.8943,
+      "risk_score": 5.6
+    },
+    {
+      "id": "SUPP-028",
+      "name": "Garrett PLC Ltd",
+      "country": "Mexico",
+      "tier": 2,
+      "specialization": "Body",
+      "quality_rating": 0.9045,
+      "risk_score": 6.0
+    },
+    {
+      "id": "SUPP-029",
+      "name": "Lambert-Townsend GmbH",
+      "country": "Mexico",
+      "tier": 2,
+      "specialization": "Body",
+      "quality_rating": 0.838,
+      "risk_score": 8.0
+    },
+    {
+      "id": "SUPP-030",
+      "name": "Moran-Richardson S.A.",
+      "country": "China",
+      "tier": 2,
+      "specialization": "Body",
+      "quality_rating": 0.8743,
+      "risk_score": 13.6
+    },
+    {
+      "id": "SUPP-031",
+      "name": "Smith-Robinson S.A.",
+      "country": "China",
+      "tier": 2,
+      "specialization": "Engine",
+      "quality_rating": 0.879,
+      "risk_score": 18.5
+    },
+    {
+      "id": "SUPP-032",
+      "name": "Duncan-Hall Corp",
+      "country": "India",
+      "tier": 2,
+      "specialization": "Engine",
+      "quality_rating": 0.8317,
+      "risk_score": 11.8
+    },
+    {
+      "id": "SUPP-033",
+      "name": "Hendrix-Crawford Ltd",
+      "country": "Turkey",
+      "tier": 2,
+      "specialization": "Engine",
+      "quality_rating": 0.8289,
+      "risk_score": 15.1
+    },
+    {
+      "id": "SUPP-034",
+      "name": "Wallace Inc Corp",
+      "country": "China",
+      "tier": 2,
+      "specialization": "Engine",
+      "quality_rating": 0.8266,
+      "risk_score": 25.6
+    },
+    {
+      "id": "SUPP-035",
+      "name": "Morgan-Mcpherson GmbH",
+      "country": "India",
+      "tier": 2,
+      "specialization": "Engine",
+      "quality_rating": 0.896,
+      "risk_score": 6.6
+    },
+    {
+      "id": "SUPP-036",
+      "name": "Torres, Miller and Fleming Corp",
+      "country": "China",
+      "tier": 3,
+      "specialization": "Body",
+      "quality_rating": 0.839,
+      "risk_score": 14.3
+    },
+    {
+      "id": "SUPP-037",
+      "name": "Sanchez, Sanders and Skinner S.A.",
+      "country": "India",
+      "tier": 3,
+      "specialization": "Body",
+      "quality_rating": 0.8554,
+      "risk_score": 16.2
+    },
+    {
+      "id": "SUPP-038",
+      "name": "Montgomery, Davis and Woods Corp",
+      "country": "China",
+      "tier": 3,
+      "specialization": "Body",
+      "quality_rating": 0.8728,
+      "risk_score": 13.8
+    },
+    {
+      "id": "SUPP-039",
+      "name": "Baker-Jackson Corp",
+      "country": "China",
+      "tier": 3,
+      "specialization": "Body",
+      "quality_rating": 0.7615,
+      "risk_score": 24.1
+    },
+    {
+      "id": "SUPP-040",
+      "name": "Warren-Hayes S.A.",
+      "country": "Vietnam",
+      "tier": 3,
+      "specialization": "Body",
+      "quality_rating": 0.8016,
+      "risk_score": 16.8
+    },
+    {
+      "id": "SUPP-041",
+      "name": "Ortiz, Johnson and Holmes Corp",
+      "country": "Malaysia",
+      "tier": 3,
+      "specialization": "Electrical",
+      "quality_rating": 0.8243,
+      "risk_score": 14.5
+    },
+    {
+      "id": "SUPP-042",
+      "name": "Carroll, Koch and Wilson Inc",
+      "country": "Malaysia",
+      "tier": 3,
+      "specialization": "Electrical",
+      "quality_rating": 0.7924,
+      "risk_score": 24.6
+    },
+    {
+      "id": "SUPP-043",
+      "name": "Stewart, Jones and Hess Ltd",
+      "country": "China",
+      "tier": 3,
+      "specialization": "Electrical",
+      "quality_rating": 0.7865,
+      "risk_score": 15.0
+    },
+    {
+      "id": "SUPP-044",
+      "name": "Mcdonald-Davenport Corp",
+      "country": "Philippines",
+      "tier": 3,
+      "specialization": "Electrical",
+      "quality_rating": 0.8176,
+      "risk_score": 23.2
+    },
+    {
+      "id": "SUPP-045",
+      "name": "Baldwin Ltd Ltd",
+      "country": "China",
+      "tier": 3,
+      "specialization": "Electrical",
+      "quality_rating": 0.8407,
+      "risk_score": 11.6
+    }
+  ],
+  "parts": [
+    {
+      "id": "PART-001",
+      "name": "Engine Block",
+      "category": "Engine",
+      "is_critical": true,
+      "complexity_level": 5
+    },
+    {
+      "id": "PART-002",
+      "name": "Cylinder Head",
+      "category": "Engine",
+      "is_critical": true,
+      "complexity_level": 5
+    },
+    {
+      "id": "PART-003",
+      "name": "Piston Assembly",
+      "category": "Engine",
+      "is_critical": true,
+      "complexity_level": 4
+    },
+    {
+      "id": "PART-004",
+      "name": "Crankshaft",
+      "category": "Engine",
+      "is_critical": true,
+      "complexity_level": 5
+    },
+    {
+      "id": "PART-005",
+      "name": "Timing Chain",
+      "category": "Engine",
+      "is_critical": true,
+      "complexity_level": 3
+    },
+    {
+      "id": "PART-006",
+      "name": "Oil Pump",
+      "category": "Engine",
+      "is_critical": true,
+      "complexity_level": 3
+    },
+    {
+      "id": "PART-007",
+      "name": "Transmission Case",
+      "category": "Transmission",
+      "is_critical": true,
+      "complexity_level": 4
+    },
+    {
+      "id": "PART-008",
+      "name": "Gear Set",
+      "category": "Transmission",
+      "is_critical": true,
+      "complexity_level": 5
+    },
+    {
+      "id": "PART-009",
+      "name": "Torque Converter",
+      "category": "Transmission",
+      "is_critical": true,
+      "complexity_level": 4
+    },
+    {
+      "id": "PART-010",
+      "name": "Brake Caliper",
+      "category": "Brake",
+      "is_critical": true,
+      "complexity_level": 3
+    },
+    {
+      "id": "PART-011",
+      "name": "Brake Disc",
+      "category": "Brake",
+      "is_critical": true,
+      "complexity_level": 2
+    },
+    {
+      "id": "PART-012",
+      "name": "Brake Pad Set",
+      "category": "Brake",
+      "is_critical": true,
+      "complexity_level": 2
+    },
+    {
+      "id": "PART-013",
+      "name": "ABS Module",
+      "category": "Brake",
+      "is_critical": true,
+      "complexity_level": 5
+    },
+    {
+      "id": "PART-014",
+      "name": "MacPherson Strut",
+      "category": "Suspension",
+      "is_critical": true,
+      "complexity_level": 3
+    },
+    {
+      "id": "PART-015",
+      "name": "Control Arm",
+      "category": "Suspension",
+      "is_critical": true,
+      "complexity_level": 2
+    },
+    {
+      "id": "PART-016",
+      "name": "Wheel Hub Assembly",
+      "category": "Suspension",
+      "is_critical": true,
+      "complexity_level": 3
+    },
+    {
+      "id": "PART-017",
+      "name": "Engine Control Unit",
+      "category": "Electrical",
+      "is_critical": true,
+      "complexity_level": 5
+    },
+    {
+      "id": "PART-018",
+      "name": "Wiring Harness",
+      "category": "Electrical",
+      "is_critical": true,
+      "complexity_level": 3
+    },
+    {
+      "id": "PART-019",
+      "name": "Battery",
+      "category": "Electrical",
+      "is_critical": true,
+      "complexity_level": 2
+    },
+    {
+      "id": "PART-020",
+      "name": "Alternator",
+      "category": "Electrical",
+      "is_critical": true,
+      "complexity_level": 4
+    },
+    {
+      "id": "PART-021",
+      "name": "Door Panel",
+      "category": "Body",
+      "is_critical": false,
+      "complexity_level": 2
+    },
+    {
+      "id": "PART-022",
+      "name": "Hood Assembly",
+      "category": "Body",
+      "is_critical": false,
+      "complexity_level": 2
+    },
+    {
+      "id": "PART-023",
+      "name": "Windshield",
+      "category": "Body",
+      "is_critical": true,
+      "complexity_level": 3
+    },
+    {
+      "id": "PART-024",
+      "name": "Side Mirror",
+      "category": "Body",
+      "is_critical": false,
+      "complexity_level": 2
+    },
+    {
+      "id": "PART-025",
+      "name": "Headlight Assembly",
+      "category": "Body",
+      "is_critical": false,
+      "complexity_level": 3
+    }
+  ],
+  "relationships": []
+}

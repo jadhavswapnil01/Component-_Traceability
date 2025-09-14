@@ -1,0 +1,13 @@
+=== ANOMALY INJECTION REPORT ===
+
+Total batches: 1,460
+Anomalous batches: 128
+Anomaly rate: 8.8%
+
+Anomaly Types:
+  - qc_failure: 33 batches
+  - quantity_anomaly: 37 batches
+  - timing_anomaly: 25 batches
+  - weight_deviation: 33 batches
+
+✓ Report saved to data/raw\anomaly_report.txt
